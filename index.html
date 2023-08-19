@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Zeyad Mahgoub - Portfollio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://static.thenounproject.com/png/1266207-200.png" type="images/x-icon">
+      <style>
+        *{
+margin: 0;
+padding: 0;
+background-color: #212121;
+
+color: #fff;
+scroll-behavior: smooth;
+}
+
+head{
+background-color: #212121
+}
+
+.u{
+padding-top: 180px;
+}
+
+.card.second{
+margin-top: -165px;
+margin-left: 700px;
+padding-bottom: 60px;
+padding-top: 60px;
+margin-bottom: 200px;
+}
+
+.card.first{
+margin-top: 100px;
+}
+
+.card{
+width: 9.25em;
+box-shadow: 0 5px 25px #000;
+padding: 25px;
+margin-top: 200px;
+margin-bottom: 100px;
+margin: 15px;
+margin-left: 200px;
+padding-left: 70px;
+border-radius: 10px;
+transition: 0.7s ease;
+background-color: #212121;
+}
+
+.span{
+margin-bottom: 180px;
+padding-bottom: 180px;
+}
+
+#contact{
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 180px;
+margin-bottom: 180px;
+}
+
+.card:hover{
+transform: scale(1.1);
+}
+
+p{
+padding-left: 80px;
+font-size: 30px;
+margin-top: -10%;
+padding-bottom: 80px;
+}
+
+.p{
+margin-top: -60px;
+}
+
+.skills{
+margin-top: 30px;
+}
+
+#about{
+padding-left: 160px;
+}
+
+.about{
+margin-top: 60px;
+margin-right: 6px;
+}
+
+a{
+text-decoration: none;
+color: #fff;
+}
+
+h1{
+padding-top: 120px;
+width: 40%;
+font-size: 80px;
+padding-left: 80px;
+}
+
+svg,
+defs,
+linearGradient,
+stop,
+path{
+z-index: -1;
+margin-top: -22%;
+margin-left: 68%;
+}
+
+nav{
+width: 100%;
+display: flex;
+position: fixed;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow:hidden;
+padding-left: 72%;
+}
+
+.home,
+.about,
+.skills,
+.contact{
+height: 100%;
+}
+
+.container{
+width: 100%;
+}
+
+body{
+height: 400%;
+}
+
+li {
+float: left;
+}
+
+.red{
+color: #f73725;
+}
+
+li a {
+display: block;
+color: rgb(179, 177, 177);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition: 0.8s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+color: #fff;
+}
+
+.typed{
+padding-top: -8%;
+}
+
+.typed::after {
+content: '';
+margin-left: 5px;
+animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+
+.u{
+justify-content: center;
+align-items: center;
+}
+
+.contact a{
+background-color: #f3e8e8;
+margin: 30%;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+margin-right: -60%;
+}
+
+#contact{
+justify-content: space-between;
+align-items: center;
+}
+h2{
+font-size: 3em;
+padding-left: 35px;
+padding-top: 14px;
+}
+
+footer{
+height: 4%;
+}
+      </style>
+    </head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <span id="home">
+        <span class="wrapper">
+        <h1 class="h1">I`m <br> Zeyad</h1>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="35%" id="blobSvg" style="opacity: 1;">                        <defs>                        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">                            <stop offset="0%" style="stop-color: #fa2d2d;"></stop>                            <stop offset="100%" style="stop-color: rgb(255, 143, 143);"></stop>                        </linearGradient>                        </defs>                                            <path id="blob" fill="url(#gradient)" style="opacity: 1;"><animate attributeName="d" dur="7.5s" repeatCount="indefinite" values="M405.0078,325.44624Q400.89248,400.89248,325.44624,434.97549Q250,469.0585,165.42535,444.1039Q80.8507,419.1493,84.75627,334.57465Q88.66184,250,94.44262,175.1117Q100.2234,100.2234,175.1117,82.29749Q250,64.37159,306.73538,100.45042Q363.47075,136.52925,386.29693,193.26462Q409.12312,250,405.0078,325.44624Z;M418.08664,320.33435Q390.6687,390.6687,320.33435,427.91946Q250,465.17023,188.27506,419.31005Q126.55013,373.44987,106.38448,311.72494Q86.21883,250,84.09726,165.98785Q81.9757,81.9757,165.98785,53.98938Q250,26.00305,311.1687,76.83282Q372.3374,127.6626,408.92099,188.8313Q445.50458,250,418.08664,320.33435Z;M446.86448,329.36764Q408.73529,408.73529,329.36764,419.76576Q250,430.79624,166.60504,423.79308Q83.21008,416.78992,69.36975,333.39496Q55.52942,250,96.13341,193.3687Q136.7374,136.7374,193.3687,119.10083Q250,101.46426,313.50105,112.23108Q377.00211,122.99789,430.99789,186.49895Q484.99368,250,446.86448,329.36764Z;M421.63508,307.39005Q364.7801,364.7801,307.39005,427.43403Q250,490.08796,191.6822,428.36178Q133.3644,366.6356,70.9089,308.3178Q8.4534,250,54.21728,174.99058Q99.98115,99.98115,174.99058,81.49686Q250,63.01257,330.66021,75.84607Q411.32042,88.67958,444.90524,169.33979Q478.49006,250,421.63508,307.39005Z;M408.24461,332.63257Q415.26513,415.26513,332.63257,434.71568Q250,454.16622,179.33614,422.74697Q108.67228,391.32772,65.87585,320.66386Q23.07942,250,63.27221,176.73251Q103.46501,103.46501,176.73251,63.02288Q250,22.58075,311.86507,74.4253Q373.73015,126.26985,387.47712,188.13493Q401.22409,250,408.24461,332.63257Z;M405.0078,325.44624Q400.89248,400.89248,325.44624,434.97549Q250,469.0585,165.42535,444.1039Q80.8507,419.1493,84.75627,334.57465Q88.66184,250,94.44262,175.1117Q100.2234,100.2234,175.1117,82.29749Q250,64.37159,306.73538,100.45042Q363.47075,136.52925,386.29693,193.26462Q409.12312,250,405.0078,325.44624Z"></animate></path></svg>
+        <p>Hi,there! I'm programmer and a student at prep. school.<br><br> I a member at EFA.</p>
+        </span>
+    </span>
+    <span id="about">
+        <h1 class="u">About us</h1>
+        <p class="about">I'm a member of the Future Geniuses group. It is a cultural group founded and run by children. <br><br> I have participated in the Artificial Intelligence and Confronting Climate Change Confernce.</p>
+        <br><br><br><br>
+    </span>
+    <span id="skills">
+        <h1 class="u">Skills</h1>
+        <p class="skills">I am python & front-end and mern stack developer. I use python & html & css & javascript <br><br> & Node & React & Express and MongoDB.</p>
+    </span>
+    <span>
+            <h1 class="u">Contact us</h1>
+            <span id="contact">
+            <p class="card first">
+                <a href="tel:01503688551">Call us <br><br>+201503688551</a>
+            </p>
+            <span class="span">
+                <p class="card second">
+                    <a class="2nd" href="https://wa.me/1503688551">whatsapp</a>
+                </p>
+            </span>
+            </span>
+    </span>
+    </span>
+</body>
+</html>
